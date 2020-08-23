@@ -1,0 +1,14 @@
+C:\Users\arthur\source\repos\LEDStrips\bin\Debug\LEDStrips.exe.config
+C:\Users\arthur\source\repos\LEDStrips\bin\Debug\LEDStrips.exe
+C:\Users\arthur\source\repos\LEDStrips\bin\Debug\LEDStrips.pdb
+C:\Users\arthur\source\repos\LEDStrips\obj\Debug\LEDStrips.csprojAssemblyReference.cache
+C:\Users\arthur\source\repos\LEDStrips\obj\Debug\LEDStrips.Form1.resources
+C:\Users\arthur\source\repos\LEDStrips\obj\Debug\LEDStrips.Properties.Resources.resources
+C:\Users\arthur\source\repos\LEDStrips\obj\Debug\LEDStrips.csproj.GenerateResource.cache
+C:\Users\arthur\source\repos\LEDStrips\obj\Debug\LEDStrips.csproj.CoreCompileInputs.cache
+C:\Users\arthur\source\repos\LEDStrips\obj\Debug\LEDStrips.exe
+C:\Users\arthur\source\repos\LEDStrips\obj\Debug\LEDStrips.pdb
+C:\Users\arthur\source\repos\LEDStrips\bin\Debug\LEDStrips.exe.manifest
+C:\Users\arthur\source\repos\LEDStrips\bin\Debug\LEDStrips.application
+C:\Users\arthur\source\repos\LEDStrips\obj\Debug\LEDStrips.exe.manifest
+C:\Users\arthur\source\repos\LEDStrips\obj\Debug\LEDStrips.application

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LEDStrips.exe" version="1.0.0.3" publicKeyToken="1da7b227a4506a92" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ico.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LEDStrips" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LEDStrips.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options de manifeste UAC
+          Pour changer le niveau du contrôle de compte d'utilisateur Windows, remplacez le
+          nœud requestedExecutionLevel par l'une des propositions suivantes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Pour utiliser la virtualisation des fichiers et du Registre afin d'assurer
+         une compatibilité ascendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LEDStrips.exe" size="49080">
+      <assemblyIdentity name="LEDStrips" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uBp/qtStQ8S8HEAwGseDdbF2pZHfxmZJJR9deCKHlcs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ico.ico" size="12975">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wQCyW5CT4xUUJPEk9u/P6J2n8O2sU3vjOF1vDx+k0Kk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LEDStrips.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAGAULE\arthur" issuerKeyHash="936afe4809260f37868ba39fd2691b8eee03cf03" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>D+DCCkIWSJwXXj/DvIQPIGMJEQ1o5n6w8P6m9ADoS+c=</DigestValue></Reference></SignedInfo><SignatureValue>vwrWDNZ1FVKg7UI3fXu5d3UWtF0kgPdtqt0adGo0/cHhDsFn1Wz3G8WH9abpxR/iOGDsMjTnmTAY3V1xM1/oyJYeqLYlkp1x49oZ1a3QoKKN65x5Eh79eqTg0AOvh7TN05zqzoWJSv4rAfCMaq0pM4UO2nGMxGuNc4kLJHBs34Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zLOcIsZ0HLVETBrWpQ4T8hl2N2QyoQR9N9y+CtE6c2DCYZU0W1m+AquRl90nqNjICEJxKhElWo6J/ra6+y1WnDkDafAdh+fpJR8jhNmUxgNYAh/H6V1tkVCCBmDKUFIwnCRMjZ67iurbCobE6mn90AU5xHmQQvww2Wv7Bj6SU+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e74be800f4a6fef0b07ee6680d110963200f84bcc33f5e179c4816420ac2e00f" Description="" Url=""><as:assemblyIdentity name="LEDStrips.exe" version="1.0.0.3" publicKeyToken="1da7b227a4506a92" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAGAULE\arthur</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Cuke1o4ud18Q4i/TzX1KIbz62tnETYJoTtGe/Y6DJho=</DigestValue></Reference></SignedInfo><SignatureValue>xljXbnpNqbUftgQ7KsZswXR02Fges8RxTs3ZslS328GdgwFEI6LzxM4ytOhGrebAk4N8miU10Xz4bM1fJ3XbRwzYEBJNoYBLosnrWytTJxHUmRggd2xcQNvX0ObOJoi/P/LSbPGimh/NYLZf49WRgd3/xh/q9eZPttrCrg0s8yA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zLOcIsZ0HLVETBrWpQ4T8hl2N2QyoQR9N9y+CtE6c2DCYZU0W1m+AquRl90nqNjICEJxKhElWo6J/ra6+y1WnDkDafAdh+fpJR8jhNmUxgNYAh/H6V1tkVCCBmDKUFIwnCRMjZ67iurbCobE6mn90AU5xHmQQvww2Wv7Bj6SU+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQQGOdAGL9Go1Pj/M97Uo7lDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwATABBAEcAQQBVAEwARQBcAGEAcgB0AGgAdQByMB4XDTIwMDgyMDIwNDczNVoXDTIxMDgyMTAyNDczNVowJzElMCMGA1UEAx4cAEwAQQBHAEEAVQBMAEUAXABhAHIAdABoAHUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzLOcIsZ0HLVETBrWpQ4T8hl2N2QyoQR9N9y+CtE6c2DCYZU0W1m+AquRl90nqNjICEJxKhElWo6J/ra6+y1WnDkDafAdh+fpJR8jhNmUxgNYAh/H6V1tkVCCBmDKUFIwnCRMjZ67iurbCobE6mn90AU5xHmQQvww2Wv7Bj6SU+ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQArh9ezVoX7A59RglHM6PSlfdu06Od99OieayHkPi1pH5XBMgy2XRRAwsK+fxA/PX2hov25QT+L40wVppMXJUNe/2+DwKIYoFNesaHwrBwOF1tIL5Db4u16zvzYJq60+jK6CZo21MJmJKAZVTpyuPSfMI5NXOSQWaX0YRIX67rv6A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
